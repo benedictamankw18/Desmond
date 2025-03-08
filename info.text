@@ -1,0 +1,306 @@
+header
+    bgcolor: #F3EADC
+
+    
+    logo:
+        size: 100/67 
+
+    sitetitle:
+        font-weight: bold
+        font-size: 22/23
+
+    navigation:
+        font-weight: semi-bold
+        font-size: 22/23
+
+
+main:
+    bgcolor: #E9E9E9
+
+    header:
+        font-weight: bold
+        font-size: 57/64
+
+    paragraph:
+        font-weight: regular
+        font-size: 12/16
+
+
+    testimory:
+        header:
+            font-weight: bold
+            font-size: 57/64
+
+        pictures:
+            size: 356 : 318
+            raduis: 50%
+
+        name:
+            font-weight: semi-bold
+            font-size: 28/22
+
+        details:
+            font-weight: regular
+            font-size: 28/16
+
+        rate-limit:
+            size: 35 : 35
+            counters: 5
+
+
+footer:
+    sitetitle:
+        font-weight: bold
+        font-size: 45/52
+        color: #58595D
+
+    slogan:
+        font-weight: regular
+        font-size: 22/14
+        color: #58595D
+
+    contact:
+        font-weight: regular
+        font-size: 22/14
+        color: #58595D
+
+    terms of service:
+        font-weight: regular
+        font-size: 18/12
+
+    @2025:
+        font-weight: regular
+        font-size: 18/12
+        align: right
+
+    logo:
+        size: 100/67    
+
+
+
+        
+<section class="courses">
+    <div class="container">
+        <h2>Our Courses</h2>
+        <div class="courses-grid">
+            <div class="course">
+                <img src="./images/course-image1.jpg" alt="Course 1">
+                <h3>Course 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="course">
+                <img src="./images/course-image2.jpg" alt="Course 2">
+                <h3>Course 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <a href="#" class="btn">Learn More</a>
+
+                <div class="course-btn-group">
+                    <button class="btn">Enroll</button>
+                    <button class="btn">Reviews</button>
+                </div>
+
+                <div class="course-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span>(5 Reviews)</span>
+
+                </div>
+            </div>
+</section>
+
+
+<section class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit  
+                    temporibus repellat delectus veniam, veniam nobis fugit. Magni perspiciatis quas voluptas, veniam, perferendis quod debitis,
+                    autem alias excepturi expedita commodi. Quia, aspernatur. Consequuntur, quia!</p>
+                <a href="./html/about.html" class="btn">Learn More</a>
+                <div class="about-image">
+                    <img src="./images/about-image.jpg" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @media screen and (max-width: 768px) {
+   .intro-img{
+        margin-top: 20px;
+    }
+   .footer-content-logo img {
+        width: 150px;
+        height: 80px;
+    }   
+    .footer-content-social a {
+        font-size: 20px;
+    }
+    .footer-content-about h3 {
+        font-size: 1.2em;
+    }
+    .footer-content-about p {
+        font-size: 0.8em;
+    }
+    .nav-links li {
+        margin-right: 10px;
+    }
+    .nav-links li a {
+        font-size: 14px;
+    }
+    .nav-brand {
+        font-size: 18px;
+    }
+    .nav-brand a img {
+        width: 80px;
+        height: 60px;
+    }
+    .intro-content h1 {
+        font-size: 30px;
+    }
+    .intro-content p {
+        font-size: 16px;
+    }
+    .testimonial-author img {
+        width: 150px;
+        height: 150px;
+    }
+    .testimonial-author h3 {
+        font-size: 1.2em;
+    }
+    .testimonial-author p {
+        font-size: 1em;
+    }
+    .testimonial-text {
+        font-size: 0.8em;
+    }
+    .btn {
+        padding: 8px 16px;
+    }
+    .footer-content-logo {
+        right: 100px;
+    }
+    .footer-content-social a {
+        font-size: 18px;
+    }
+    .footer-content-about h3 {
+        font-size: 1.1em;
+    }
+    .footer-content-about p {
+        font-size: 0.7em;
+    }
+    .footer-content-about p:nth-child(4) {
+        margin: 10px 0px;
+    }
+    .footer-content-social a:nth-child(4) {
+        transform: scale(1);
+        transition: transform 0.3s ease;
+    }
+    .footer-content-social a:nth-child(4):hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;
+    }
+    
+
+
+
+    /* Responsive design for the testimonials */
+   .testimonials {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .testimonial-author {
+          width: 200px;
+     }
+    .testimonial-author img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+        cursor: pointer;
+        z-index: 999;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 0.1px solid #c5ae04;
+        padding: 10px 5px;
+        position: relative;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 5px 1px 3px rgba(189, 221, 7, 0.1);
+        background: linear-gradient(to right, #55acee , #333 20%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        cursor: pointer;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        background: linear-gradient(to right, #55acee, #333);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: relative;
+        z-index: 999;
+        overflow: hidden;
+    }
+    .testimonial-author h3 {
+        font-size: 1em;
+    }
+    .testimonial-author p {
+        font-size: 0.8em;
+    }
+    .testimonial-text {
+        font-size: 0.7em;
+    }
+    .testimonial {
+        display: block;
+    }
+    .testimonial-author {
+        margin: auto;
+    }
+    .testimonial-author img {
+        margin: auto;
+    }
+    .testimonial-author h3 {
+        margin: auto;
+    }
+    .testimonial-author p {
+        margin: auto;
+    }
+    .testimonial-text {
+        margin: auto;
+    }
+    .footer-content-logo {
+        right: 50px;
+    }
+    .footer-content-social {
+        margin-top: 40px;
+    }
+    .footer-content-social a {
+        margin-right: 5px;
+    }
+    .footer-content-social a {
+        font-size: 15px;
+    }
+    .footer-content-about h3 {
+        font-size: 1em;
+    }
+    .footer-content-about p {
+        font-size: 0.6em;
+    }
+    .footer-content-about p:nth-child(4) {
+        margin: 10px 0px;
+    }
+    .footer-content-social a:nth-child(4) {
+        transform: scale(1);
+        transition: transform 0.3s ease;
+    }
+
+}
