@@ -1,0 +1,30 @@
+.intro-content h2 {
+  color: #00000071;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.intro-content p {
+  color: #000000d9;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.intro-list {
+  color: #0c0c0cc9;
+  border-radius: 0;
+  padding: 10px 50px;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.intro-list b {
+  color: #000000e5;
+  font-size: 1.1em;
+}
+
+.intro-list li {
+  list-style-image: url("../images/icons/list.png");
+  /* list; */
+}
